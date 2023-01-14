@@ -13,8 +13,20 @@ git commit -m "Completed chapter2 and 3"
 git log
 git status
 "modify chapter3.txt"
-git checkout chapter3.txt
+git diff chapter3.txt
+git checkout chapter3.txt  --> "revert to previos commited state"
 git log
+
+255
+git log
+create a repo in github
+git config --global user.name "yinming0634"
+git config --global user.email "yinming0634@gmail.com"
+git config --global user.password "a61919662"
+git log
+git remote add origin https://github.com/yinming0634/Story.git
+git push -u origin master
+
 
 
 
