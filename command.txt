@@ -1,0 +1,25 @@
+254
+git init
+git status
+git add chapter1.txt
+git status
+git commit -m "Completed chapter1"
+git log
+"add chapter2 and chapter3.txt"
+git status
+git add .
+git status
+git commit -m "Completed chapter2 and 3"
+git log
+git status
+"modify chapter3.txt"
+git checkout chapter3.txt
+git log
+
+
+
+
+
+
+
+
